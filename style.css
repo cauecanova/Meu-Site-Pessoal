@@ -320,11 +320,16 @@ footer p {
 @media (max-width: 768px) {
     /* Ajustes para o menu de navegação */
     .main-nav {
-        flex-direction: column; /* Empilha os itens verticalmente */
-        height: auto; /* Altura automática */
+      /*  flex-direction: column; /* Empilha os itens verticalmente */
+      flex-wrap:  wrap; /* Permite quebrar para outra linha se necessário */
+      height:  auto; /* Altura automática */
     }
+
+    } 
     .main-nav li a {
         padding: 12px 20px; /* Padding ajustado para mobile */
+        padding: 8px 12px;
+        font-size: 0.9em; /* Fonte amor /*
     }
     
     /* Demais ajustes originais */
